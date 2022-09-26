@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+</head>
+<body>
+    <div class="hamburger-menu" style="width: 0; height: 0;">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+        <ul class="menu__box">
+            <li><a class="menu__item" href="#pre">Преимущества</a></li>
+            <li><a class="menu__item" href="#skill">Навыки</a></li>
+            <li><a class="menu__item" href="#ww">Работы</a></li>
+        </ul>
+    </div>
+    
+    <script>
+        AOS.init();
+    </script>
+    
+    <!--------- Шапка ----------->
+    
+    <header>
+        <a href = "#top"><img class = "logo" src="./img/mylogoL.png" style="height: 50px;" alt="logo"></a>
+        
+        <nav>
+            <ul class = "nav_links">
+                <a name = "top"></a>
+                <li><a href="#pre">Преимущества</a></li>
+                <li><a href="#skill">Навыки</a></li>
+                <li><a href="#ww">Работы</a></li>
+            </ul>
+        </nav>
+        <a href="#cont"><button>Контакты</button></a>
+    </header>
+    
+    <!--------- Интро ----------->
+    <section class = "intro">
+        <div class = "intro_z">
+            <div class = "intro_content">
+                <h1>Я Аслан<br>Frontend - моё ремесло</h1>
+            </div>
+        </div>
+    </section>
+    
+    <!---------- Преимущества -->
+    <section class = "why">
+        <a name="pre"></a>
+        <div class = "text_h" data-aos="flip-left">
+            <h2>Преимущества</h2>
+            <div></div>
+        </div>
+        <div class = "why_w" data-aos="fade-up">
+            <div class = "why_card">
+                <img src="./img/icons/11.png">
+                <h3>Чето про документы, всё круто короче</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class = "why_card">
+                <img src="./img/icons/22.png">
+                <h3>Супер хорошие сроки, гарантии</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet mauris lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris aliquet mauris lacus. Vestibulum ante ipsum.</p>
+            </div>
+            <div class = "why_card">
+                <img src="./img/icons/33.png">
+                <h3>Нереально дешёво. Дешевле донера на саяхате (по качеству лучше)</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet mauris lacus. Vestibulum ante ipsum primis.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!--------- Навыки ---->
+    <section class = "skills_sec">
+        <a name="skill"></a>
+        <div class = "text_h" data-aos="flip-left" style="margin-bottom: 50px;">
+            <h2>Навыки</h2>
+            <div></div>
+        </div>
+        <div class = "skills_sec_sec" data-aos="fade-up">
+            <div class = "skills_block">
+                <div class = "skills_block_circ">
+                    <div>99%</div>
+                </div>
+                <h2>HTML5</h2>
+            </div>
+            <div class = "skills_block">
+                <div class = "skills_block_circ">
+                    <div>100%</div>
+                </div>
+                <h2>CSS</h2>
+            </div>
+            <div class = "skills_block">
+                <div class = "skills_block_circ">
+                    <div>98%</div>
+                </div>
+                <h2>JavaScript</h2>
+            </div>
+            <div class = "skills_block">
+                <div class = "skills_block_circ">
+                    <div>0%</div>
+                </div>
+                <h2>Лень</h2>
+            </div>
+        </div>
+        
+    </section>
+    
+    <!---------- Работы ----->
+    <section class = "works">
+        <a name="ww"></a>
+        <div class = "text_h" data-aos="flip-left" style="">
+            <h2>Работы</h2>
+            <div></div>
+        </div>
+        <div class = "work_desk" data-aos="fade-up">
+            <div class = "work_block">
+                <div class = "work_block_dark">
+                    <h3>Название работы</h3>
+                    <a href = "#">Смотреть</a>
+                </div>
+            </div>
+            <div class = "work_block">
+                <div class = "work_block_dark">
+                    <h3>Название работы</h3>
+                    <a href = "#">Смотреть</a>
+                </div>
+            </div>
+            <div class = "work_block">
+                <div class = "work_block_dark">
+                    <h3>Название работы</h3>
+                    <a href = "#">Смотреть</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!---------- Контакты --->
+    <section class = "contacts">
+        <a name = "cont"></a>
+        <div class = "contacts_nigger">
+            <h2>Связь</h2>
+            <a href="https://vk.com/asslanbarbaris">vk.com/asslanbarbaris<br></a>
+            <a href="mailto:mmxxking@gmail.com">mmxxking@gmail.com</a>
+            <a href="#">Asslan#1409</a>
+            <div class = "icons_section">
+                <img src = "./img/icons/1.png">
+                <img src = "./img/icons/2.png">
+                <img src = "./img/icons/3.png">
+                <img src = "./img/icons/4.png">
+            </div>
+        </div>
+    </section>
+    
+    <!---------- Нога ------->
+    <footer>
+        <div class = "text_column">
+            <a href="#top"><img src="./img/mylogoL.png"></a>
+        </div>
+        <div class = "text_column">
+            <h3>Ресурсы</h3>
+            <a href="www.flaticon.com">Иконки Freepik</a>
+            <a href="#">Шрифт Jura</a>
+            <a href="#">Стоковые фотографии</a>
+        </div>
+        <div class = "text_column">
+            <h3>Автор</h3>
+            <a href="#">Мади/Аслан</a>
+            <a href="#">13.09.2022 1:07</a>
+        </div>
+    </footer>
+</body>
+</html>
